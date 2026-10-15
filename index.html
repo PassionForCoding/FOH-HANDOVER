@@ -267,11 +267,12 @@
           </div>
           <fieldset class="field" data-field="shift">
             <legend>Shift</legend>
-            <div class="choice-row">
+            <div class="choice-row" style="grid-template-columns: repeat(3, minmax(0, 1fr))">
               <label class="choice"><input type="radio" name="shift" value="AM" required>AM</label>
               <label class="choice"><input type="radio" name="shift" value="PM">PM</label>
+              <label class="choice"><input type="radio" name="shift" value="Full Shift">Full Shift</label>
             </div>
-            <p class="field-error">Choose AM or PM.</p>
+            <p class="field-error">Choose AM, PM or Full Shift.</p>
           </fieldset>
           <div class="field" data-field="location">
             <label for="location">Location</label>
